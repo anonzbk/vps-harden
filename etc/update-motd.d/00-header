@@ -5,8 +5,6 @@
 
 ### personalize these variables ###
 firstline='This is a Private Server'
-weathercity='Anchorage'
-weatherurl='http://rss.accuweather.com/rss/liveweather_rss.asp?metric=2&locCode=Anchorage'
 
 ### colors ###
 color1='\033[1;31m'  # light red
@@ -36,9 +34,9 @@ printf "     ${color14}/   \\ ${color7}'\`\`-.   \`   ${color14} ${nocolor}\n"
 printf "   ${color7}.-.  ${color14},       ${color7}\`___:  ${color14}System OS: `lsb_release -s -d`${nocolor}\n"
 printf "  ${color7}(   ) ${color14}:       ${color1} ___   ${color14}`uname -srmo`${nocolor}\n"
 printf "   ${color7}\`-\`  ${color14}\`      ${color1} ,   :${color3}   \n"
-# printf "   ${color7}\`-\`  ${color14}\`      ${color1} ,   :${color3}  Weather (${weathercity}): `curl -s "${weatherurl}" | sed -n '/Currently:/ s/.*: \(.*\): \([0-9]*\)\([CF]\).*/\2°\3, \1/p'`\n"
-printf "     ${color7}\\   / ${color1},..-\`   ,${color10}   Network Information ${color9}\n"
+printf "   ${color7}\`-\`  ${color14}\`      ${color1} ,   :${color3}  Network Information \n"
+printf "     ${color7}\\   / ${color1},..-\`   ,${color10}   Internal IP: `hostname -I`  ${color9}\n"
 printf "      ${color7}\`./${color1} /    ${color14}.-.${color1}\`${color10}    External IP: ${color9}`/usr/bin/wget -q -O - http://ipv4.icanhazip.com/ | /usr/bin/tail`\n"
 printf "         ${color1}\`-..-${color14}(   )${color1}    --> Uptime: `/usr/bin/uptime -p` <--${nocolor}\n"
 printf "               ${color14}\`-\`${nocolor}     ${nocolor}\n"
-# printf "               ${color1}   ${nocolor}\n"
+ printf "               ${color1}   ${nocolor}\n"
