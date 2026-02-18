@@ -26,23 +26,7 @@ The following is a list of different sections of the script, which are broken up
 
 I aggregated these steps from several different server hardening guides and selected the most effective of them to include in this script. The goal is to make something simple enough for newcomers to use while still being practical and saving time for seasoned Linux veterans. I am certainly open to suggestions and would like to keep this easy and practical to use.
 
-If this script helps you out, please contribute some feedback. Donations are also welcome and help permit me to continue to develop this and other projects.
 
-```
-HLM: SYQJrFYL7VrEPN7HyhGFBB35nvZ2k1Fbjo
-BTC: 3LbUJVW9WmXPgFStTXSLTBwjpnbVTtt8Ja
-TRON: TLsday62mhM67Sv5G5Z5Ju66TezJuVFbiw
-DGB: DUJ8W8QpmVex87posFPoDYGg5FrYCoMLGq
-DOGE: DH9Sj3DQNVBaxb6kZBXc6X2MPQjbv7H6oy
-```
-
-## Referral Links
-
-Please [use my Vultr referral link](https://www.vultr.com/?ref=7568060) when creating your VPS account at Vultr to support my projects and build some good karma.<br/>
-
-<p align="center"><a href="https://www.vultr.com/?ref=7568060"><img src="https://www.vultr.com/media/banner_1.png"></a></p>
-
-[Digital Ocean](https://www.digitalocean.com/?refcode=bd6020302487) is also very generous, and give a free credit of $100 to use while testing the site to decide if it is right for you.
 
 # Installation
 
